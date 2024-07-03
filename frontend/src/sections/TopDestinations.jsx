@@ -2,7 +2,7 @@ import React from 'react'
 
 const TopDestinations = () => {
   return (
-    <div className='bg-[#5981B2] w-screen h-[1091px] relative'>
+    <div className='bg-[#5981B2] w-full h-[1091px] relative'>
         <div>
 
         </div>

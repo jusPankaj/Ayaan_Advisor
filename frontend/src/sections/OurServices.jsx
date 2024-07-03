@@ -118,7 +118,7 @@ export const OurServices = () => {
       </div>
 
       {/* {bg-exploreServices} */}
-      <div>
+      {/* <div>
         <div className="bg-[#2C4058] h-[390px] flex flex-col justify-center  px-[370px]">
           <div className="text-4xl text-white font-extrabold my-2">
             It uses a dictionary of over 200 Latin words, combined with a
@@ -129,10 +129,27 @@ export const OurServices = () => {
           </p>
           <button
             type="submit"
-            className="bg-[#FED55F] text-[#2C4058] text-[16px] py-3 px-8 rounded-md font-semibold my-2 max-w-[231px]"
+            className="bg-[#FED55F] text-[#2C4058] text-[16px] py-3 px-8 rounded-md font-semibold my-2"
           >
             Explore Our Services
           </button>
+        </div>
+      </div> */}
+      <div className="bg-[#2C4058] h-[390px] max-w-full flex items-center">
+        <div className="flex flex-col justify-center items-start px-[206px]">
+            <div className="text-4xl text-white font-extrabold font-sansation ">
+                It uses a dictionary of over 200 Latin words, combined with a
+                handful of model sentence structures.
+            </div>
+            <p className="text-[#D4CDEF] font-normal my-3 text-[18px]">
+                We'll get back to you within 24 hours
+            </p>
+            <button
+                type="submit"
+                className="bg-[#FED55F] text-[#2C4058] text-[16px] py-3 px-8 rounded-md font-semibold my-2"
+            >
+                Learn more about our services
+            </button>
         </div>
       </div>
     </div>

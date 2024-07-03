@@ -4,9 +4,9 @@ import { FaCaretRight, FaCaretLeft } from "react-icons/fa6";
 
 const Testimonials = () => {
   return (
-    <div className="relative">
-      <div className=" mx-24 p-24 flex justify-between">
-        <div className="w-[1029px] ">
+    <div className="relative max-w-full px-[206px]">
+      <div className="my-2 flex justify-between">
+        <div className="max-w-full ">
           <p className="text-slate-400">Testimonials</p>
           <div>
             <h1 className="text-[#5981B2] font-semibold text-5xl">
@@ -25,7 +25,7 @@ const Testimonials = () => {
           <img src="./images/Quotes.png" alt="" />
         </div>
       </div>
-      <div className="flex mx-24 mb-24 overflow-hidden">
+      <div className="flex mb-24 overflow-hidden">
         {/* <button className="m-2 absolute left-0 top-3/4 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded">
           Prev
         </button> */}

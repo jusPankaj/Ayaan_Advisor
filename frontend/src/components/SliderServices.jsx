@@ -18,14 +18,14 @@ const SliderServices = ({ slides }) => {
   return (
     <div className="relative w-full overflow-hidden">
       <div className="flex justify-center transition-transform duration-1000 transform">
-        {/* {style={{ transform: `translateX(-${currentIndex * 35}%)` }}} */}
-        {console.log("outside map", slides)}
+        {/* style={{ transform: `translateX(-${currentIndex * 100}%)` }} */}
+        {/* {console.log("outside map", slides)} */}
         {slides &&
           slides.map((slide, index) => (
             <div
               key={index}
               className={`opacity-100 mx-2 ${
-                currentIndex + 1 === index || currentIndex === index
+                currentIndex  === index -1 || currentIndex === index
                   ? "opacity-100"
                   : "opacity-25"
               }`}

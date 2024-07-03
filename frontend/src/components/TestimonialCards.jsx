@@ -2,8 +2,7 @@ import React from "react";
 
 const TestimonialCards = ({ Content, imgSrc, name, designation }) => {
   return (
-    <div className="mx-3 shadow-xl p-5 relative border border- rounded-lg">
-        {/* {style={"border: 0.8px solid; linear-gradient(180deg, rgba(0, 0, 0, 0.034) 0%, rgba(0, 0, 0, 0) 50.31%, rgba(0, 0, 0, 0.108) 100%)"}>} */}
+    <div className="mx-1 shadow-xl p-5 relative border border- rounded-lg">
       <div className="w-[310px] h-[301px]">
         <div className="text-[#2C4058CC]">
           <p>{Content}</p>

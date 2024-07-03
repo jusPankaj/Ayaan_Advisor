@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div>
       {/* Top Navbar */}
-      <div className="flex items-center justify-between p-2 h-12 bg-[#2C4058] text-white px-4 md:px-16 lg:px-32 font-primary">
+      <div className="flex items-center justify-between p-2 h-12 bg-[#2C4058] text-white px-4 md:px-16 lg:px-32 font-primary max-w-full">
         <div className="flex">
           <div className="flex items-center mr-3">
             <svg
@@ -82,11 +82,12 @@ const Header = () => {
             <button onClick={() => setMenuOpen(!menuOpen)}>
               <svg width="24" height="24" fill="currentColor">
                 {menuOpen ? (
-                  <path
-                    fillRule="evenodd"
-                    clipRule="evenodd"
-                    d="M6 18L18 6M6 6l12 12"
-                  />
+                  // <path
+                  //   fillRule="evenodd"
+                  //   clipRule="evenodd"
+                  //   d="M6 18L18 6M6 6l12 12"
+                  // />
+                  <p>x</p>
                 ) : (
                   <path
                     fillRule="evenodd"

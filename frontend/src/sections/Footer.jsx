@@ -1,16 +1,26 @@
 import React from "react";
-import { FaFacebook, FaInstagramSquare, FaTwitterSquare, FaPinterestSquare, FaLinkedin } from "react-icons/fa";
+import { FaFacebookSquare, FaInstagramSquare, FaTwitterSquare, FaPinterestSquare, FaLinkedin } from "react-icons/fa";
+import { FaXTwitter, FaInstagram } from "react-icons/fa6";
+import { CiLinkedin } from "react-icons/ci";
+
+
 
 const Footer = () => {
   return (
-    <div>
-      <div className="grid grid-cols-1 md:grid-cols-7 bg-[#2C4058] py-16">
+    <div className="max-w-full bg-[#2C4058] ">
+      <div className="grid grid-cols-1 md:grid-cols-7  mx-[206px] pt-16">
         <div className="col-span-2 px-4 md:px-16">
           <div className="flex flex-col items-center md:items-start">
-            <img src="./images/LogoBottom.png" alt="logo" className="w-[218px] h-[58px] mb-3 text-white" />
+            <img src="./images/LogoBottom.png" alt="logo" className="w-[218px] md:h-auto mb-3 text-white" />
             <p className="font-primary text-white text-center md:text-left">
               Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text.
             </p>
+          </div>
+          <div className="flex p-2">
+            <FaFacebookSquare className="text-white mx-3" />
+            <FaXTwitter className="text-white mx-3"/>
+            <FaInstagram className="text-white mx-3"/>
+            <CiLinkedin className="text-white mx-3"/>
           </div>
         </div>
 
@@ -52,7 +62,7 @@ const Footer = () => {
         <div className="col-span-3 px-4 md:px-10 pt-10 md:pt-0 order-2 md:order-4">
           <div className="flex flex-col justify-between">
             <div className="flex flex-col items-center md:items-start">
-              <div className="flex text-2xl mb-4">
+              {/* <div className="flex text-2xl mb-4">
                 <div className="px-3">
                   <FaFacebook />
                 </div>
@@ -68,7 +78,7 @@ const Footer = () => {
                 <div className="px-3">
                   <FaLinkedin />
                 </div>
-              </div>
+              </div> */}
               <div>
                 <h2 className="text-white font-semibold text-[18px]">Subscribe to Newsletter</h2>
                 <p className="text-[#CCCCCC]">
@@ -93,7 +103,8 @@ const Footer = () => {
       </div>
       <div className="flex justify-center items-center h-20 max-w-screen bg-[#26384D] text-xl">
         <div className="text-white">
-          © Copyright Ayaan Overseas Advisors. All Rights Reserved
+          © Copyright Ayaan Overseas Advisors.
+          <span className="sm:block md:inline"> All Rights Reserved </span>
         </div>
       </div>
     </div>
