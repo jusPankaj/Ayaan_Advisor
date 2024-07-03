@@ -3,9 +3,9 @@ import React from 'react'
 const ContactForm = () => {
   return (
     <div>
-      <section className="text-gray-700 body-font relative font-primary">
+      <section className="w-[717px] mx-3 box-border text-gray-700 body-font relative font-primary">
         {/* <div className="container px-5 py-24 mx-auto"> */}
-          <div className="md:w-1/2">
+          <div className="">
             <div className="flex flex-wrap -m-2">
               <div className="p-2 w-1/2">
                 <div className="relative">
@@ -21,6 +21,7 @@ const ContactForm = () => {
                   />
                 </div>
               </div>
+
               <div className="p-2 w-1/2">
                 <div className="relative">
                   <label
@@ -39,7 +40,6 @@ const ContactForm = () => {
                 </div>
               </div>
 
-
               <div className="p-2 w-full">
                 <div className="relative">
                   <label
@@ -57,7 +57,6 @@ const ContactForm = () => {
                   />
                 </div>
               </div>
-
 
               <div className="p-2 w-full">
                 <div className="relative">
@@ -81,7 +80,6 @@ const ContactForm = () => {
                   </select>
                 </div>
               </div>
-
               
               <div className="p-2 w-full">
                 <div className="relative">
@@ -99,7 +97,7 @@ const ContactForm = () => {
                 </div>
               </div>
 
-              <div className="p-2 w-full">
+              <div className="p-2">
                 <button className="flex h-12 text-white bg-[#5981B2] border-0 py-3 px-6 rounded text-md font-medium">
                   Submit
                 </button>
@@ -194,13 +192,13 @@ const ContactForm = () => {
                     </div>
                   </div>
 
-                  <div className='flex items-center'>
+                  <divsection className='flex items-center'>
                     <img src="./images/envelope1.png" alt="" className='h-10 w-10'/>
                     <div className='flex flex-col mx-1'>
                       <h6 className='text-[16px] font-normal'>Phone</h6>
                       <p className='text-[16px] font-normal'>9999999999</p>
                     </div>
-                  </div>
+                  </divsection>
 
                 </div>
               </div>

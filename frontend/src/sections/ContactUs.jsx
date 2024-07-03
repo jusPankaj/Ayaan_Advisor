@@ -3,7 +3,7 @@ import ContactForm from "../components/ContactForm";
 
 const ContactUs = () => {
   return (
-    <div className="max-w-full mx-[206px]">
+    <div className="max-w-full mx-[206px] mb-16">
       <div className="">
           <p className="text-slate-400">Contact Us</p>
           <div>
@@ -16,13 +16,13 @@ const ContactUs = () => {
             This is dummy text. Lorem ipsum dolor sit amet.
           </p>
       </div>
-      <div className="w-[1417px] flex ">
+      <div className="flex">
         <ContactForm />
-        <div className="m-0">
+        <div className="flex-grow">
           <img
             src="./images/map_in_form.png"
             alt=""
-            className="w-[655px] h-[685px]"
+            className="w-full h-[685px] mt-6 ml-8"
           />
         </div>
       </div>
