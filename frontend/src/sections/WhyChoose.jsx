@@ -3,8 +3,8 @@ import ChooseBox from "../components/ChooseBox";
 const WhyChoose = () => {
   return (
     <div className="w-full ">
-      <div className="px-[206px] flex flex-col mb-20">
-        <div className="w-[1029px]h-[218px] flex flex-col">
+      <div className="px-8 md:px-[206px] flex flex-col mb-20">
+        <div className="flex flex-col md:flex-wrap">
           <div>
             <p className="text-slate-400">The reason</p>
           </div>
@@ -19,14 +19,14 @@ const WhyChoose = () => {
             </h1>
           </div>
 
-          <p className="text-[18px] my-4 text-[#2C4058CC] max-w-[1029px] font-normal">
+          <p className="text-[18px] my-4 text-[#2C4058CC]  max-w-[1029px] font-normal">
             At Ayaan Overseas Advisors, we understand that embarking on an
             international education journey is a significant decision, and we're
             here to make that process as smooth and rewarding as possible.
           </p>
         </div>
         <div>
-          <div className="flex flex-nowrap justify-center gap-4 w-full">
+          <div className="flex flex-wrap md:flex-nowrap justify-center gap-4 w-full">
             <ChooseBox
               icon="/images/PersonalizeGuidance.png"
               text={"Personalize "}
@@ -52,7 +52,7 @@ const WhyChoose = () => {
                 <ChooseBox icon="/images/SuccessStories.png" text={"Success "} boldText={"Stories"} />
                 <ChooseBox icon="/images/FamilyLikeCare.png" text={"Family-"} boldText={"Like Care"} /> */}
           </div>
-          <div className="flex flex-nowrap justify-center gap-4 w-full">
+          <div className="flex flex-wrap md:flex-nowrap justify-center gap-4 w-full">
             {/*                 
                 <ChooseBox icon="/images/PersonalizeGuidance.png" text={"Personalize "} boldText={"Guidance"} />
                 <ChooseBox icon="/images/ExpertKnowledge.png" text={"Expert "} boldText={"Knowledge"} />
@@ -82,8 +82,8 @@ const WhyChoose = () => {
         </div>
       </div>
 
-      <div className="bg-[#5981B2] h-[390px] max-w-full flex items-center">
-        <div className="flex flex-col justify-center items-start px-[206px]">
+      <div className="bg-[#5981B2] sm:h-auto md:h-[390px] max-w-full flex sm:items-center sm:justify-center px-8 md:px-[206px]">
+        <div className="flex flex-col justify-center items-start">
             <div className="text-4xl text-white font-extrabold font-sansation ">
                 It uses a dictionary of over 200 Latin words, combined with a
                 handful of model sentence structures.

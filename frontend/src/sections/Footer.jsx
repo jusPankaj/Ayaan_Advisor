@@ -7,8 +7,8 @@ import { CiLinkedin } from "react-icons/ci";
 
 const Footer = () => {
   return (
-    <div className="max-w-full bg-[#2C4058] ">
-      <div className="grid grid-cols-1 md:grid-cols-7  mx-[206px] pt-16">
+    <div className="max-w-full bg-[#2C4058] pt-24">
+      <div className="grid grid-cols-1 md:grid-cols-7 px-8 md:px-[206px]">
         <div className="col-span-2 px-4 md:px-16">
           <div className="flex flex-col items-center md:items-start">
             <img src="./images/LogoBottom.png" alt="logo" className="w-[218px] md:h-auto mb-3 text-white" />
@@ -62,31 +62,12 @@ const Footer = () => {
         <div className="col-span-3 px-4 md:px-10 pt-10 md:pt-0 order-2 md:order-4">
           <div className="flex flex-col justify-between">
             <div className="flex flex-col items-center md:items-start">
-              {/* <div className="flex text-2xl mb-4">
-                <div className="px-3">
-                  <FaFacebook />
-                </div>
-                <div className="prx-3">
-                  <FaInstagramSquare />
-                </div>
-                <div className="px-3">
-                  <FaTwitterSquare />
-                </div>
-                <div className="px-3">
-                  <FaPinterestSquare />
-                </div>
-                <div className="px-3">
-                  <FaLinkedin />
-                </div>
-              </div> */}
-              <div>
                 <h2 className="text-white font-semibold text-[18px]">Subscribe to Newsletter</h2>
                 <p className="text-[#CCCCCC]">
                   Subscribe for Updates: Stay informed about the latest investor updates, financial results, and announcements by subscribing to our newsletter.
                 </p>
-              </div>
             </div>
-            <form className="flex flex-col md:flex-row justify-center items-center mt-4">
+            <form className="flex flex-col mb-6 md:mb-0 md:flex-row justify-center items-center mt-4 ">
               <input
                 placeholder="Enter your email"
                 className="h-[58px] w-full md:w-[317px] p-3 border border-gray-400 rounded-md bg-[#FFFFFF1A] mb-4 md:mb-0 md:mr-4"
@@ -101,7 +82,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-center items-center h-20 max-w-screen bg-[#26384D] text-xl">
+      <div className="flex justify-center items-center h-20 max-w-full px-8 md:px-[206px] text-center bg-[#26384D] text-xl">
         <div className="text-white">
           © Copyright Ayaan Overseas Advisors.
           <span className="sm:block md:inline"> All Rights Reserved </span>

@@ -2,7 +2,7 @@ import AccordianFAQs from "../components/AccordianFAQs";
 
 const FAQs = () => {
   return (
-    <div className="bg-[#FBFAFF] px-[206px] max-w-full">
+    <div className="bg-[#FBFAFF] px-8 md:px-[206px] max-w-full">
       <div>
         <div className="py-6">
           <p className="text-slate-400">FAQs</p>

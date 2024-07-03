@@ -3,11 +3,11 @@ import React from 'react'
 const ContactForm = () => {
   return (
     <div>
-      <section className="w-[717px] mx-3 box-border text-gray-700 body-font relative font-primary">
+      <section className="max-w-full md:w-[717px] mx-3 box-border text-gray-700 body-font relative font-primary">
         {/* <div className="container px-5 py-24 mx-auto"> */}
           <div className="">
             <div className="flex flex-wrap -m-2">
-              <div className="p-2 w-1/2">
+              <div className="p-2 w-full sm:w-1/2">
                 <div className="relative">
                   <label for="name" className="leading-7 text-sm text-gray-600">
                     Name
@@ -22,7 +22,7 @@ const ContactForm = () => {
                 </div>
               </div>
 
-              <div className="p-2 w-1/2">
+              <div className="p-2 w-full md:w-1/2">
                 <div className="relative">
                   <label
                     for="phone"

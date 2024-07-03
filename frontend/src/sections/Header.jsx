@@ -82,12 +82,11 @@ const Header = () => {
             <button onClick={() => setMenuOpen(!menuOpen)}>
               <svg width="24" height="24" fill="currentColor">
                 {menuOpen ? (
-                  // <path
-                  //   fillRule="evenodd"
-                  //   clipRule="evenodd"
-                  //   d="M6 18L18 6M6 6l12 12"
-                  // />
-                  <p>x</p>
+                  <path
+                    fillRule="evenodd"
+                    clipRule="evenodd"
+                    d="M6 18L18 6M6 6l12 12"
+                  />                  
                 ) : (
                   <path
                     fillRule="evenodd"
