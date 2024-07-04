@@ -81,6 +81,28 @@ const Footer = () => {
             </form>
           </div>
         </div>
+
+        {/* {<div className="inline-flex flex-col items-start gap-6 relative flex-[0_0_auto]">
+                  <div className="relative w-fit mt-[-1.00px] [font-family:'Poppins-SemiBold',Helvetica] font-semibold text-white text-lg tracking-[0] leading-6 whitespace-nowrap">
+                    Subscribe to Newsletter
+                  </div>
+                  <p className="relative w-[461px] [font-family:'Poppins-Regular',Helvetica] font-normal text-[#cccccc] text-xl tracking-[0] leading-[30px]">
+                    Subscribe for Updates: Stay informed about the latest investor updates, financial results, and
+                    announcements by subscribing to our newsletter.
+                  </p>
+                  <div className="flex w-[461px] h-[58px] items-start relative rounded-[8px_0px_0px_8px] overflow-hidden">
+                    <div className="flex w-[317px] items-center gap-2.5 px-8 py-3.5 relative bg-[#ffffff1a] rounded-[8px_0px_0px_8px] overflow-hidden">
+                      <div className="relative w-fit mt-[-1.00px] [font-family:'Inter-Regular',Helvetica] font-normal text-[#ffffff] text-lg tracking-[0] leading-[30px] whitespace-nowrap">
+                        Enter your email
+                      </div>
+                    </div>
+                    <button className="all-[unset] box-border inline-flex items-center justify-center gap-2.5 px-8 py-[11px] relative self-stretch flex-[0_0_auto] bg-[#fed55f] rounded-[0px_8px_8px_0px] shadow-button-shadow">
+                      <div className="relative w-fit [font-family:'Inter-Bold',Helvetica] font-bold text-[#2c4058] text-base tracking-[0] leading-[normal] whitespace-nowrap">
+                        Subscribe
+                      </div>
+                    </button>
+                  </div>
+                </div>} */}
       </div>
       <div className="flex justify-center items-center h-20 max-w-full px-8 md:px-[206px] text-center bg-[#26384D] text-xl">
         <div className="text-white">

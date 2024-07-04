@@ -26,7 +26,7 @@ const WhyChoose = () => {
           </p>
         </div>
         <div>
-          <div className="flex flex-wrap md:flex-nowrap justify-center gap-4 w-full">
+          <div className="flex flex-wrap md:flex-nowrap justify-center items-center text-center gap-4 w-full">
             <ChooseBox
               icon="/images/PersonalizeGuidance.png"
               text={"Personalize "}

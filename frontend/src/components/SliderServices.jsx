@@ -13,7 +13,7 @@ const SliderServices = ({ slides, currentIndex }) => {
         {slides.map((slide, index) => (
           <div
             key={index}
-            className={`w-1/3 h-[821px] m-3 p-8 shadow-lg flex flex-col shrink-0 ${
+            className={`lg:w-[685px] h-[821px] m-3 p-8 shadow-lg flex flex-col shrink-0 ${
               index >= currentIndex && index <= currentIndex + 1
                 ? "opacity-100"
                 : "opacity-25"

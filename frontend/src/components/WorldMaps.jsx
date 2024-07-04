@@ -1,43 +1,41 @@
-import React, { useState } from 'react';
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
-import 'leaflet/dist/leaflet.css';
+import React from "react";
+import { ComposableMap, Geographies, Geography, Marker } from "react-simple-maps";
 
-function WorldMaps() {
-  const [activePark, setActivePark] = useState(null);
+const geoUrl =
+  "https://unpkg.com/world-atlas@2.0.2/countries-110m.json";
 
-  const parkData = [
-    {
-      id: 1,
-      name: 'Park 1',
-      description: 'Description of Park 1',
-      coordinates: [45.4, -75.7],
-    },
-    {
-      id: 2,
-      name: 'Park 2',
-      description: 'Description of Park 2',
-      coordinates: [45.5, -75.8],
-    },
-  ];
-
+const WorldMap = () => {
   return (
-    <MapContainer center={[45.4, -75.7]} zoom={12} scrollWheelZoom={false} style={{ height: '500px' }}>
-      <TileLayer
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-        attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-      />
-      {parkData.map((park) => (
-        <Marker key={park.id} position={park.coordinates}>
-          <Popup>
-            <div>
-              <h2>{park.name}</h2>
-              <p>{park.description}</p>
-            </div>
-          </Popup>
-        </Marker>
-      ))}
-    </MapContainer>
-  );
-}
+    <div >
+      <ComposableMap
+        projection="geoMercator"
+        width={600}
+        height={400}
+        style={{
+          width: "100vw",
+          height: "100vh",
+        }}
+      >
+        {console.log("inside WorldMap")}
 
-export default WorldMaps;
+        <Geographies geography={geoUrl}>
+          {({ geographies }) =>
+            geographies.map((geo) => (
+              <Geography key={geo.rsmKey} geography={geo} fill="#EAEAEC" />
+            ))
+          }
+        </Geographies>
+        <Marker coordinates={[10.4545, 51.1657]}>
+          {/* <circle r={8} fill="#F00" /> */}
+        </Marker>
+        <Marker coordinates={[-122.4194, 37.7749]}>
+          {/* <circle r={8} fill="#0F0" /> */}
+        </Marker>
+        <Marker coordinates={[-74.0060, 40.7128]}>
+          {/* <circle r={8} fill="#00F" /> */}
+        </Marker>
+      </ComposableMap>
+    </div>
+  );
+};
+export default WorldMap;

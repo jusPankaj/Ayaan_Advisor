@@ -8,6 +8,7 @@ import Testimonials from "./sections/Testimonials";
 import FAQs from "./sections/FAQs";
 import ContactUs from "./sections/ContactUs";
 import TopDestinations from "./sections/TopDestinations";
+import Footer1 from "./sections/Footer1";
 // import Footer1 from "./sections/Footer1";
 
 

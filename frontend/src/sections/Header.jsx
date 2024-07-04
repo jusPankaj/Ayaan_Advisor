@@ -4,9 +4,11 @@ const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <div>
-      {/* Top Navbar */}
-      <div className="flex items-center justify-between p-2 h-12 bg-[#2C4058] text-white px-4 md:px-16 lg:px-32 font-primary max-w-full">
+    <div className=" max-w-full ">
+      {/* {px-8 md:px-[206px]} */}
+      <div className="">
+        {/* Top Navbar */}
+      <div className="flex items-center justify-between p-2 h-12 bg-[#2C4058] w-full text-white font-primary ">
         <div className="flex">
           <div className="flex items-center mr-3">
             <svg
@@ -48,12 +50,12 @@ const Header = () => {
       </div>
 
       {/* Main Navbar */}
-      <div className="container mx-auto px-4">
+      <div className="container">
         <div className="flex justify-between items-center h-[97.2px] py-6">
           <div>
             <img src="/images/logo.png" alt="ayaan_overseas_logo" />
           </div>
-          <div className="hidden md:flex text-[#2C4058] text-lg font-medium">
+          <div className="hidden md:flex text-[#2C4058] md:text-medium lg:text-lg font-medium">
             <ul className="flex">
               <li className="p-4">
                 <a>Home</a>
@@ -125,6 +127,7 @@ const Header = () => {
             </ul>
           </div>
         )}
+      </div>
       </div>
     </div>
   );
