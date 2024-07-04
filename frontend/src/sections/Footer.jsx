@@ -7,7 +7,7 @@ import { CiLinkedin } from "react-icons/ci";
 
 const Footer = () => {
   return (
-    <div className="max-w-full bg-[#2C4058] pt-24">
+    <div className="w-max-full bg-[#2C4058] pt-24">
       <div className="grid grid-cols-1 md:grid-cols-7 px-8 md:px-[206px]">
         <div className="col-span-2 px-4 md:px-16">
           <div className="flex flex-col items-center md:items-start">

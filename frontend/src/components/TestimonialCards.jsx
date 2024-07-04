@@ -1,11 +1,11 @@
 import React from "react";
 
-const TestimonialCards = ({ Content, imgSrc, name, designation }) => {
+const TestimonialCards = ({ content, imgSrc, name, designation }) => {
   return (
-    <div className="mx-1 shadow-xl p-5 relative border border- rounded-lg">
+    <div className="mx-1 shadow-xl p-5 relative border border- rounded-lg" >
       <div className="w-[310px] h-[301px]">
         <div className="text-[#2C4058CC]">
-          <p>{Content}</p>
+          <p>{content}</p>
         </div>
         <div className="flex items-center">
           <img src={imgSrc} alt="" className="rounded-full w-[62px] h-[62px]" />

@@ -7,6 +7,8 @@ import { OurServices } from "./sections/OurServices";
 import Testimonials from "./sections/Testimonials";
 import FAQs from "./sections/FAQs";
 import ContactUs from "./sections/ContactUs";
+import TopDestinations from "./sections/TopDestinations";
+// import Footer1 from "./sections/Footer1";
 
 
 function App() {
@@ -17,9 +19,11 @@ function App() {
       <WhyChoose />
       <OurServices />
       <Testimonials />
+      <TopDestinations />
       <FAQs />
       <ContactUs />
       <Footer />
+      {/* <Footer1 /> */}
     </div>
   );
 }

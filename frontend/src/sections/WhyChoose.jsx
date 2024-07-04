@@ -2,7 +2,7 @@ import ChooseBox from "../components/ChooseBox";
 
 const WhyChoose = () => {
   return (
-    <div className="w-full ">
+    <div className="max-w-full ">
       <div className="px-8 md:px-[206px] flex flex-col mb-20">
         <div className="flex flex-col md:flex-wrap">
           <div>
@@ -47,17 +47,8 @@ const WhyChoose = () => {
               text={"Hassle "}
               boldText={"-Free Process"}
             />
-            {/* <ChooseBox icon="/images/AffordableTransparent.png" text={"Affordable & "} boldText={"Transparent"} />
-                <ChooseBox icon="/images/ComprehensiveSupport.png" text={"Comprehensive "} boldText={"Support"} />
-                <ChooseBox icon="/images/SuccessStories.png" text={"Success "} boldText={"Stories"} />
-                <ChooseBox icon="/images/FamilyLikeCare.png" text={"Family-"} boldText={"Like Care"} /> */}
           </div>
           <div className="flex flex-wrap md:flex-nowrap justify-center gap-4 w-full">
-            {/*                 
-                <ChooseBox icon="/images/PersonalizeGuidance.png" text={"Personalize "} boldText={"Guidance"} />
-                <ChooseBox icon="/images/ExpertKnowledge.png" text={"Expert "} boldText={"Knowledge"} />
-                <ChooseBox icon="/images/TopUniveristyConnections.png" text={"Top "} boldText={"Univeristy Connections"} />
-                <ChooseBox icon="/images/HassleFree.png" text={"Hassle "} boldText={"-Free Process"} /> */}
             <ChooseBox
               icon="/images/AffordableTransparent.png"
               text={"Affordable & "}

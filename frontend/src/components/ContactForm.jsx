@@ -9,12 +9,11 @@ const ContactForm = () => {
             <div className="flex flex-wrap -m-2">
               <div className="p-2 w-full sm:w-1/2">
                 <div className="relative">
-                  <label for="name" className="leading-7 text-sm text-gray-600">
+                  <label className="leading-7 text-sm text-gray-600">
                     Name
                   </label>
                   <input
                     type="text"
-                    id="name"
                     name="name"
                     className="w-full bg-transparent rounded border border-[#E0E0E0]  text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                     required
@@ -32,7 +31,7 @@ const ContactForm = () => {
                   </label>
                   <input
                     type="number"
-                    id="phone"
+                    // id="phone"
                     name="phone"
                     className="w-full bg-transparent rounded border border-[#E0E0E0] text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                     required
@@ -43,14 +42,12 @@ const ContactForm = () => {
               <div className="p-2 w-full">
                 <div className="relative">
                   <label
-                    for="email"
                     className="leading-7 text-sm text-gray-600"
                   >
                     Email
                   </label>
                   <input
                     type="email"
-                    id="email"
                     name="email"
                     className="w-full bg-transparent rounded border border-[#E0E0E0] text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                     required
@@ -60,12 +57,12 @@ const ContactForm = () => {
 
               <div className="p-2 w-full">
                 <div className="relative">
-                  <label
+                  {/* <label
                     for="phone"
                     className="leading-7 text-sm text-gray-600"
                   >
                     Phone
-                  </label>
+                  </label> */}
                   <select 
                   className="w-full bg-transparent rounded border border-[#E0E0E0] text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
                     <option value="">Countries Interested in</option>
