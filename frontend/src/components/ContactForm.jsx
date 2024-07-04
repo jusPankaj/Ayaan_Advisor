@@ -57,15 +57,15 @@ const ContactForm = () => {
 
               <div className="p-2 w-full">
                 <div className="relative">
-                  {/* <label
+                  <label
                     for="phone"
                     className="leading-7 text-sm text-gray-600"
                   >
-                    Phone
-                  </label> */}
+                Countries Interested in
+                  </label>
                   <select 
-                  className="w-full bg-transparent rounded border border-[#E0E0E0] text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
-                    <option value="">Countries Interested in</option>
+                  className="w-full bg-transparent rounded border border-[#E0E0E0] text-base outline-none text-gray-700 py-3 px-4 leading-8 transition-colors duration-200 ease-in-out">
+                    <option value="">Select one</option>
                     <option value="Russia">Russia</option>
                     <option value="Croatia">Croatia</option>
                     <option value="Czech Republic">Czech Republic</option>
@@ -94,7 +94,7 @@ const ContactForm = () => {
                 </div>
               </div>
 
-              <div className="p-2">
+              <div className="p-2 mb-3">
                 <button className="flex h-12 text-white bg-[#5981B2] border-0 py-3 px-6 rounded text-md font-medium">
                   Submit
                 </button>
@@ -170,11 +170,11 @@ const ContactForm = () => {
               <div className='border-t border-[#E0E0E0] w-full mt-2 mb-4'>
                 <div className='flex items-center my-8 '>
                   <p>CONTACT US VIA </p>
-                  <img src="./images/whatsapp.png" alt="" className='w-[32.96px] h-[30.55px]'/> 
+                  <img src="./images/whatsapp.png" alt="" className='w-[32.96px] h-[30.55px] ml-2'/> 
                 </div>
                 <div className='flex justify-between '>
                   <div className='flex items-center'>
-                    <img src="./images/phone_call1.png" alt="" className='h-10 w-10'/>
+                    <img src="./images/phone_call1.png" alt="" className='h-8 w-8 mr-2'/>
                     <div className='flex flex-col mx-1'>
                       <h6 className='text-[16px] font-normal'>Phone</h6>
                       <p className='text-[16px] font-normal'>9999999999</p>
@@ -182,7 +182,7 @@ const ContactForm = () => {
                   </div>
 
                   <div className='flex items-center'>
-                    <img src="./images/location1.png" alt="" className='h-10 w-10'/>
+                    <img src="./images/location1.png" alt="" className='h-8 w-8 mr-2'/>
                     <div className='flex flex-col mx-1'>
                       <h6 className='text-[16px] font-normal'>Phone</h6>
                       <p className='text-[16px] font-normal'>9999999999</p>
@@ -190,7 +190,7 @@ const ContactForm = () => {
                   </div>
 
                   <divsection className='flex items-center'>
-                    <img src="./images/envelope1.png" alt="" className='h-10 w-10'/>
+                    <img src="./images/envelope1.png" alt="" className='h-8 w-8 mr-2'/>
                     <div className='flex flex-col mx-1'>
                       <h6 className='text-[16px] font-normal'>Phone</h6>
                       <p className='text-[16px] font-normal'>9999999999</p>

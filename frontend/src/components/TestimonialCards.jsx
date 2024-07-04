@@ -2,8 +2,8 @@ import React from "react";
 
 const TestimonialCards = ({ content, imgSrc, name, designation }) => {
   return (
-    <div className="mx-1 shadow-xl p-5 rounded-lg" >
-      <div className="w-1/4 h-[301px]">
+    <div className="mx-1 shadow-xl p-5 rounded-lg border" >
+      <div className="w-[310px] h-[301px]">
         <div className="text-[#2C4058CC]">
           <p>{content}</p>
         </div>

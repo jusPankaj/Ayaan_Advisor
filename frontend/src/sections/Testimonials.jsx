@@ -29,9 +29,22 @@ const Testimonials = () => {
   };
 
   return (
-    <div className="relative max-w-full px-16 md:px-[206px]">
-      <div className="my-2 flex justify-between">
-        {/* ... */}
+    <div className="relative ">
+      <div className="my-2 flex justify-between max-w-full px-16 md:px-[150px] xl:px-[206px]" >
+        <div className=" ">
+          <p className="text-slate-400">Testimonials</p>
+          <div className="font-sansation">
+            <h1 className="text-[#5981B2] font-bold text-5xl">
+              Success{" "}
+              <span className="text-[#2C4058] font-bold text-5xl">
+                Stories
+              </span>
+            </h1>
+          </div>
+          <p className="text-[18px] my-4 text-[#2C4058CC]">
+          Hear from our successful students who are now thriving in their medical careers.
+          </p>
+        </div>
       </div>
       <div className="flex mb-24 overflow-hidden ">
         {currentSlide > 0 && (
@@ -44,12 +57,12 @@ const Testimonials = () => {
         )}
 
         <div
-          className="flex transition-transform duration-300 ease-in-out"
+          className="flex transition-transform duration-300 ease-in-out overflow-hidden"
           style={{ transform: `translateX(-${currentSlide * 100 / (testimonials.length - visibleItems + 1)}%)` }}
           ref={testimonialContainerRef}
         >
           {testimonials.map((testimonial, index) => (
-            <div key={index} className="flex-none w-full md:w-1/4">
+            <div key={index} className="flex-none">
               <TestimonialCards
                 content={testimonial.content}
                 imgSrc={testimonial.imgSrc}

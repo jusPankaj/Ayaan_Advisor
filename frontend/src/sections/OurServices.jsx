@@ -20,14 +20,14 @@ export const OurServices = () => {
   return (
     <div className="bg-[#FBFAFF]">
       <div className="flex">
-        <div className="flex flex-col justify-center py-[100px] max-w-full w-[1420px] px-8 md:px-[206px]">
+        <div className="flex flex-col justify-center py-[70px] max-w-full w-[1420px] px-8 md:px-[150px] xl:px-[206px]">
           <div className="max-w-full flex justify-between items-center">
             <div>
               <p className="text-slate-400">What we offer</p>
               <div className="">
-                <h1 className="text-[#5981B2] font-bold text-5xl">
+                <h1 className="text-[#5981B2] font-bold text-5xl font-sansation">
                   Our{" "}
-                  <span className="text-[#2C4058] font-bold text-5xl">
+                  <span className="text-[#2C4058] font-bold text-5xl font-sansation">
                     Services
                   </span>
                 </h1>
@@ -65,9 +65,9 @@ export const OurServices = () => {
         <SliderServices slides={slidesData} currentIndex={currentIndex} />
       </div>
 
-      <div className="bg-[#2C4058] sm:h-auto md:h-[390px] max-w-full flex sm:items-center sm:justify-center px-8 md:px-[206px]">
+      <div className="bg-[#2C4058]  sm:h-auto md:h-[390px] max-w-full flex sm:items-center sm:justify-center px-8 md:px-[150px]">
         <div className="flex flex-col justify-center items-start ">
-          <div className="text-4xl text-white font-extrabold font-sansation ">
+          <div className="text-4xl text-white font-extrabold font-sansation md-w[50%]">
             It uses a dictionary of over 200 Latin words, combined with a
             handful of model sentence structures.
           </div>

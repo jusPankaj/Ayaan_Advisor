@@ -3,7 +3,7 @@ import ChooseBox from "../components/ChooseBox";
 const WhyChoose = () => {
   return (
     <div className="max-w-full ">
-      <div className="px-8 md:px-[206px] flex flex-col mb-20">
+      <div className="px-8 md:px-[150px] xl:px-[206px] flex flex-col mb-20">
         <div className="flex flex-col md:flex-wrap">
           <div>
             <p className="text-slate-400">The reason</p>
@@ -26,7 +26,7 @@ const WhyChoose = () => {
           </p>
         </div>
         <div>
-          <div className="flex flex-wrap md:flex-nowrap justify-center items-center text-center gap-4 w-full">
+          <div className="flex flex-wrap md:flex-nowrap justify-center gap-4 w-full mt-5 mb-4">
             <ChooseBox
               icon="/images/PersonalizeGuidance.png"
               text={"Personalize "}
@@ -73,7 +73,7 @@ const WhyChoose = () => {
         </div>
       </div>
 
-      <div className="bg-[#5981B2] sm:h-auto md:h-[390px] max-w-full flex sm:items-center sm:justify-center px-8 md:px-[206px]">
+      <div className="bg-[#5981B2] xl:px-[206px] sm:h-auto md:h-[390px] max-w-full flex sm:items-center sm:justify-center px-8 md:px-[150px]">
         <div className="flex flex-col justify-center items-start">
             <div className="text-4xl text-white font-extrabold font-sansation ">
                 It uses a dictionary of over 200 Latin words, combined with a

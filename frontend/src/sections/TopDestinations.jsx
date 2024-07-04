@@ -11,7 +11,8 @@ const TopDestinations = () => {
           <h1 className="flex text-center absolute text-[48px] text-white font-bold top-4 font-sansation left-[34rem]">Top Destinations for MBBS</h1>
         </div>
         <div className="w-full mb-24 overflow-hidden">
-            <WorldMaps />
+            {/* <WorldMaps /> */}
+            <img src="./images/WorldMap.png" alt="" />
         </div>
         <div className="absolute bottom-10 flex justify-between items-center rounded-3xl bg-[#2C4058] h-auto w-full sm:w-[900px] lg:h-[198px] px-8 md:px-[39px] py-8 md:py-[79px] mb-8 md:mb-0">
           

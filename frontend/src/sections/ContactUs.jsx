@@ -3,8 +3,8 @@ import ContactForm from "../components/ContactForm";
 
 const ContactUs = () => {
   return (
-    <div className="max-w-full px-8 md:px-[206px] mb-16">
-      <div className="">
+    <div className="max-w-full px-8 md:px-[150px] xl:px-[206px] mb-16 py-[70px] flex items-end">
+      <div className="w-[50%]">
         <p className="text-slate-400">Contact Us</p>
         <div>
           <h1 className="text-[#5981B2] font-semibold text-5xl">
@@ -15,9 +15,9 @@ const ContactUs = () => {
         <p className="text-[18px] my-4 text-[#2C4058CC] font-normal">
           This is dummy text. Lorem ipsum dolor sit amet.
         </p>
-      </div>
-      <div className="flex flex-col md:flex-row max-w-full">
         <ContactForm />
+      </div>
+      <div className="w-[50%]">
         <div className="flex-grow">
           <img
             src="./images/map_in_form.png"

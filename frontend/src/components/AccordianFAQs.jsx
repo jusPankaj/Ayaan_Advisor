@@ -8,20 +8,20 @@ const AccordianFAQs = ({ faqsData }) => {
   }
 
   return (
-    <div className="flex flex-col items-center bg-white min-w-screen">
+    <div className="flex flex-col  bg-white w-full  mb-10 ">
       <div className="">
         {faqsData.map((faq, index) => (
           <div
             key={index}
-            className="flex justify-between items-center border-b py-4 cursor-pointer"
+            className="flex justify-between items-center py-5 px-5 cursor-pointer border-b"
             onClick={() => handleClick(index)}
           >
             <div className="flex items-center">
-              <div className="px-3">
-                <h1 className="text-[#3C3C4380] mr-4 text-xl font-medium">{index > 9 ? {index} + 1: `0${index+1}`}</h1>
+              <div className="px-4">
+                <h1 className="text-[#3C3C4380] mr-4 text-md font-medium">{index > 9 ? {index} + 1: `0${index+1}`}</h1>
               </div>
               <div>
-                <h1 className="text-[#5981B2] font-medium text-[32px]">{faq.Question}</h1>
+                <h1 className="text-[#5981B2] font-medium text-[20px]">{faq.Question}</h1>
                 {isActive === index && (
                   <p className="text-[#2C4058CC] mt-2">{faq.Answer}</p>
                 )}

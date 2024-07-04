@@ -2,15 +2,15 @@ import AccordianFAQs from "../components/AccordianFAQs";
 
 const FAQs = () => {
   return (
-    <div className="bg-[#FBFAFF] px-8 md:px-[206px] max-w-full">
+    <div className="bg-[#FBFAFF] px-8 md:px-[150px] xl:px-[206px] max-w-full py-[70px]">
       <div>
         <div className="py-6">
           <p className="text-slate-400">FAQs</p>
           <div>
-            <h1 className="text-[#5981B2] font-semibold text-5xl">
+            <h1 className="text-[#5981B2] font-semibold font-sansation text-5xl">
               Frequently
             </h1>
-            <h1 className="text-[#2C4058] font-semibold text-5xl">
+            <h1 className="text-[#2C4058] font-semibold font-sansation text-5xl">
               Asked Questions
             </h1>
           </div>
@@ -19,7 +19,7 @@ const FAQs = () => {
           </p>
         </div>
       </div>
-      <div className="min-h-full bg-gray-50 flex items-center justify-center ">
+      <div className="min-h-full bg-gray-50 flex items-center w-full">
         <AccordianFAQs faqsData={faqsData} />
       </div>
       <button className="bg-[#5981B2] text-white rounded-lg h-12 w-[155px] mb-16">
