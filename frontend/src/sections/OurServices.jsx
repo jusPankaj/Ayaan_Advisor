@@ -18,8 +18,8 @@ export const OurServices = () => {
   };
 
   return (
-    <div className="bg-[#FBFAFF]">
-      <div className="flex">
+    <div className="bg-[#FBFAFF] mb-20">
+      <div className="flex ">
         <div className="flex flex-col justify-center py-[70px] max-w-full w-[1420px] px-8 md:px-[150px] xl:px-[206px]">
           <div className="max-w-full flex justify-between items-center">
             <div>
@@ -65,9 +65,9 @@ export const OurServices = () => {
         <SliderServices slides={slidesData} currentIndex={currentIndex} />
       </div>
 
-      <div className="bg-[#2C4058]  sm:h-auto md:h-[390px] max-w-full flex sm:items-center sm:justify-center px-8 md:px-[150px]">
+      <div className="bg-cta2 bg-cover xl:px-[206px]  sm:h-auto md:h-[390px] max-w-full flex sm:items-center sm:justify-center px-6 md:px-[150px] mt-20">
         <div className="flex flex-col justify-center items-start ">
-          <div className="text-4xl text-white font-extrabold font-sansation md-w[50%]">
+          <div className="text-4xl text-white font-extrabold font-sansation md-w[40%]">
             It uses a dictionary of over 200 Latin words, combined with a
             handful of model sentence structures.
           </div>

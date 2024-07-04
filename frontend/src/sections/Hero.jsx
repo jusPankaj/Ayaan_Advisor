@@ -21,10 +21,10 @@ const Hero = () => {
           </div>
         </div>
         {/* Right side image */}
-        <div className="absolute inset-0 overflow-hidden md:block hidden xl:px-24">
+        <div className="absolute inset-0 overflow-hidden md:block mx-[-30px] hidden xl:px-24">
           <img
             src="./images/bg_hero.png"
-            className="absolute z-10 top-[12px]  right-[200px]  md:right-[20px] "
+            className="absolute z-10 top-[12px]  right-[200px]  md:right-0 "
           />
         </div>
         </div>

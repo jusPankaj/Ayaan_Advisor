@@ -7,9 +7,9 @@ const TopDestinations = () => {
     // {bg-[#5981B2]}
     <div className=" w-full h-[1091px] relative bg-[#5981B2]">
       <div className="flex flex-col md:flex-row justify-center items-center md:items-end p-8 md:p-0 md:h-[1091px]">
-        <div>
+        {/* <div>
           <h1 className="flex text-center absolute text-[48px] text-white font-bold top-4 font-sansation left-[34rem]">Top Destinations for MBBS</h1>
-        </div>
+        </div> */}
         <div className="w-full mb-24 overflow-hidden">
             {/* <WorldMaps /> */}
             <img src="./images/WorldMap.png" alt="" />

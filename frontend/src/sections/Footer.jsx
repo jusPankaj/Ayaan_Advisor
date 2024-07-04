@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebookSquare, FaInstagramSquare, FaTwitterSquare, FaPinterestSquare, FaLinkedin } from "react-icons/fa";
+import { FaFacebookSquare } from "react-icons/fa";
 import { FaXTwitter, FaInstagram } from "react-icons/fa6";
 import { CiLinkedin } from "react-icons/ci";
 
@@ -7,6 +7,7 @@ import { CiLinkedin } from "react-icons/ci";
 
 const Footer = () => {
   return (
+    <>
     <div className="bg-[#2C4058] pt-24 md:px-[150px] xl:px-[206px]">
       <div className="md:container  xl:mx-auto mx-auto ">
       <div className="grid grid-cols-1 md:grid-cols-7  ">
@@ -52,9 +53,9 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className="col-span-1  order-4 md:order-3">
+        <div className="col-span-1 p-2 order-4 md:order-3">
           <h3 className="text-white">Legal</h3>
-          <ul className="text-[#CCCCCC]">
+          <ul className="text-[#CCCCCC] gap-2">
             <li>Privacy Policy</li>
             <li>Terms & Conditions</li>
           </ul>
@@ -84,13 +85,15 @@ const Footer = () => {
         </div>
       </div>
       </div>
+      
+    </div>
       <div className="flex justify-center items-center h-20 w-full p-0 md:px-[206px] text-center bg-[#26384D] text-xl" style={{padding:0, margin:0}}>
-        <div className="text-white">
-          © Copyright Ayaan Overseas Advisors.
-          <span className="sm:block md:inline"> All Rights Reserved </span>
-        </div>
+      <div className="text-white">
+        © Copyright Ayaan Overseas Advisors.
+        <span className="sm:block md:inline"> All Rights Reserved </span>
       </div>
     </div>
+    </>
   );
 };
 

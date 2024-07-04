@@ -73,21 +73,21 @@ const WhyChoose = () => {
         </div>
       </div>
 
-      <div className="bg-[#5981B2] xl:px-[206px] sm:h-auto md:h-[390px] max-w-full flex sm:items-center sm:justify-center px-8 md:px-[150px]">
+      <div className="bg-cta1 bg-cover xl:px-[206px] sm:h-auto md:h-[320px] max-w-full flex sm:items-center sm:justify-center px-4 md:px-[150px]">
         <div className="flex flex-col justify-center items-start">
-            <div className="text-4xl text-white font-extrabold font-sansation ">
-                It uses a dictionary of over 200 Latin words, combined with a
-                handful of model sentence structures.
-            </div>
-            <p className="text-[#D4CDEF] font-normal my-3 text-[18px]">
-                We'll get back to you within 24 hours
-            </p>
-            <button
-                type="submit"
-                className="bg-[#FED55F] text-[#2C4058] text-[16px] py-3 px-8 rounded-md font-semibold my-2"
-            >
-                Learn more about our services
-            </button>
+          <div className="text-4xl text-white font-extrabold font-sansation ">
+            It uses a dictionary of over 200 Latin words, combined with a
+            handful of model sentence structures.
+          </div>
+          <p className="text-[#D4CDEF] font-normal my-3 text-[18px]">
+            We'll get back to you within 24 hours
+          </p>
+          <button
+            type="submit"
+            className="bg-[#FED55F] text-[#2C4058] text-[16px] py-3 px-8 rounded-md font-semibold my-2"
+          >
+            Learn more about our services
+          </button>
         </div>
       </div>
     </div>
